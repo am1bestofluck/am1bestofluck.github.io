@@ -1,0 +1,147 @@
+header {
+    max-width: 767px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.background {
+    max-height: 363px;
+}
+
+.offer {
+    padding: 64px 16px;
+    grid-template-columns: 1fr;
+    column-gap: 32px;
+}
+
+.products {
+    padding: 0px 8px 85px;
+    column-gap: 16px;
+    max-width: calc(100% - (8px*2));
+    justify-items: center;
+}
+
+.mobile--2,
+.mobile--3 {
+    display: none;
+}
+
+.column {
+    display: none;
+}
+
+.column--right {
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan--border {
+    display: none;
+}
+
+.slogan {
+    justify-content: center;
+    max-width: 263px;
+    padding-left: 15px;
+}
+
+.slogan--text--bold {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 45.6px;
+    text-align: left;
+}
+
+.slogan--text--regular {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.slogan--text {
+    width: 100%;
+}
+
+.offer__cell {
+    min-height: 250px;
+}
+
+.offer__cell--wide {
+    grid-column: 1/-1;
+    min-height: 110px;
+}
+
+.products--header {
+    grid-column: 1/-1;
+}
+
+.products--button_browse__block {
+    grid-column: 1/-1;
+}
+
+.footer_Frame_7 {
+    flex-direction: column;
+}
+
+.wtf_year_22 {
+    display: none;
+}
+
+.wtf_year_21 {
+    display: inline;
+}
+
+.Subcsribe--form {
+    max-width: 340px;
+}
+
+.Subcsribe--form__submit {
+    min-width: 95px;
+}
+
+.footer_Feature {
+    flex-direction: column;
+    min-height: 610px;
+    row-gap: 45px;
+}
+
+.footer_Copyright {
+    flex-flow: column-reverse nowrap;
+}
+
+.hover_menu {
+    max-height: 363px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    left: 0;
+    min-width: 100%;
+}
+
+.hover_menu--header {
+    grid-column: 1/-1;
+}
+
+.column_0 {
+    grid-column-start: 1;
+}
+
+.column_1 {
+    grid-column-start: 2;
+}
+
+.column_2 {
+    grid-column-start: 3;
+}
+
+.hover_menu--position {
+    padding-left: 20px;
+}
+
+.hover_menu--group {
+    padding-left: 20px;
+}

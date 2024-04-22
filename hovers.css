@@ -1,0 +1,106 @@
+.products--item__preview_bed--hovered {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 56, 56, 0.86);
+    color: rgba(58, 56, 56, 0.86);
+}
+
+.products--item__preview_bed:hover>.products--item__preview_bed--hovered {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-radius: 1px;
+}
+
+.products--item__preview_bed--hovered_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 139px;
+    height: 44px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 1);
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hover_menu {
+    display: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 75px;
+    left: calc( 100% - 230px);
+    min-width: 230px;
+    height: 635px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+}
+
+.hover_menu--header {
+    padding-top: 32px;
+    padding-left: 33px;
+    padding-bottom: 4px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.hover_menu--group {
+    padding-left: 32px;
+    padding-bottom: 12px;
+    padding-top: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(241, 109, 127, 1);
+}
+
+.hover_menu--position {
+    padding-left: 54px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(111, 110, 110, 1);
+}
+
+.hover_menu--details {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 10px;
+}
+
+.menued_icon:hover>.hover_menu {
+    display: grid;
+}
+
+.footer_Copyright--Social_Icon__obj:hover {
+    filter: invert(100%) sepia(1%) saturate(319%) hue-rotate(344deg) brightness(116%) contrast(100%);
+}
+
+.products--button_browse:hover {
+    color: white;
+    background-color: rgba(242, 99, 118, 1);
+    border: solid 1px rgba(255, 106, 106, 1);
+}

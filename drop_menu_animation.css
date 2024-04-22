@@ -1,0 +1,26 @@
+@keyframes drop_menu--desktop {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 635px;
+    }
+}
+
+@keyframes drop_menu--tablet {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 368px;
+    }
+}
+
+@keyframes drop_menu--mobile {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 363px;
+    }
+}
